@@ -212,8 +212,8 @@ def main():
        first_column, second_column , third_column, forth_column = stframe_2.columns(4)
        first_column.image(os.path.join( TEAM_DIR, 'tanpohkeam.jpeg'),  use_column_width = True, caption = "Tan Poh Keam")
        second_column.image(os.path.join( TEAM_DIR, 'loosailam.jpeg'),  use_column_width = True, caption = "Loo Sai Lam")
-       third_column.image(os.path.join( TEAM_DIR, 'tanpohkeam.jpeg'),  use_column_width = True, caption = "Jiang Fu Wei")
-       forth_column.image(os.path.join( TEAM_DIR, 'loosailam.jpeg'),  use_column_width = True, caption = "Jose Daniel Castor")
+       third_column.image("https://via.placeholder.com/300x300?text=Jiang%20Fu%20Wei",  use_column_width = True, caption = "Jiang Fu Wei")
+       forth_column.image("https://via.placeholder.com/300x300?text=Jose%20Daniel%20Castor",  use_column_width = True, caption = "Jose Daniel Castor")
        
        stframe_3 = st.empty()
        expandar_contact = stframe_3.expander('Contact Information')
