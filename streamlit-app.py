@@ -12,9 +12,9 @@ import tensorflow as tf
 MODEL = './model/lightweight-ltc-cnn-model-10.h5'
 VIDEO_EXTENSIONS = ["mp4", "ogv", "m4v", "webm"]
 VIDEO_DIR = "./data"
-UPLOAD_DIR = "./tmp_upload"
+UPLOAD_DIR = "./upload"  
 
-PROJECT_INFO = "./project_info.md"
+PROJECT_INFO = "./project-info.md"
 TEAM_DIR = './team'
 
 # Constants for sidebar dropdown
@@ -192,7 +192,7 @@ def main():
             stframe_1.info("Started")
             f.write((uploaded_file).getbuffer())
             inference_actions(model, upload_video_path )
-            stframe_1("Ended")
+            stframe_1.success("Ended")
 
             #st.write(upload_video_path)
           
