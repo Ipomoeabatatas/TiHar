@@ -9,7 +9,8 @@ import numpy as np
 import time
 import tensorflow as tf
 
-MODEL = './model/lightweight-ltc-cnn-model-10.h5'
+MODEL = './model/lightweight-ltc-cnn-model-10.h5'  # Nov 2021 version
+#MODEL = './model/lightweight-multiscale-ltc-cnn-model-all-frames-13.h5'  # LTC-CNN
 VIDEO_EXTENSIONS = ["mp4", "ogv", "m4v", "webm"]
 VIDEO_DIR = "./data"
 UPLOAD_DIR = "./upload"  

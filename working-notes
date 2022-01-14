@@ -1,0 +1,21 @@
+
+
+Conda info --envs
+
+Installing tf27
+
+Installing Streamlit again !
+Step 1: conda install -c conda-forge streamlit. # gives 0.8 version
+Step 2: pip install --upgrade streamlit.        # upgrade to version 1.3
+
+#Please remove the tf-metal package to resolve .predict() failure
+pip uninstall tensorflow-metal
+
+cd Workspace/TiHar
+
+
+Git branch
+Git branch -r # for remove
+
+Existing git
+
