@@ -19,3 +19,5 @@ Git branch -r # for remove
 
 Existing git
 
+To GitHub:
+git push origin main 
