@@ -21,3 +21,11 @@ Existing git
 
 To GitHub:
 git push origin main 
+
+
+
+For herouku
+heroku git:remote -a timghar. (One time)
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku main
