@@ -12,11 +12,11 @@ In this project, we scope our work to architecture a AI model to recognition thr
 
 ### What can you do on this site? 
 
-⬅️ From the drop downlist, you can:
+From the drop downlist, you can:
 
 📁 Test the model using sample thermal videos that we have provided
 
-🎞️ Upload your own thermal video clip (~30 secs)
+🎞️ Upload your own thermal video clip. Please keep to 30 to 40 secs)
 
 🤙 Find out who are the team members, and get their contacts
 
