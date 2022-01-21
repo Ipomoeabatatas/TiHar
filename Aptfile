@@ -2,4 +2,5 @@ libsm6
 libxrender1
 libfontconfig1
 libice6
-libgl1
+pkg-config
+libgtk2.0-dev
