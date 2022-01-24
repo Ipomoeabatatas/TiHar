@@ -187,8 +187,8 @@ def inference_actions(model, video):
 
              filename = 'savedImage.jpg'
              cv2.imwrite(filename, image)
-             #reload_image = Image.open(filename)
-             #stframe.image(reload_image)
+             #reload_image = Image.open(filename)   #
+             #stframe.image(reload_image)           #
              
        if not inference:
            stframe.imshow('No Inference', image)
