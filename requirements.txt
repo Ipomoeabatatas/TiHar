@@ -1,6 +1,6 @@
 numpy==1.22.0
 
-# opencv-python-headless  #only for streamlit / heroic / cloud without GUI
+
 
 streamlit==1.4.0
 tensorflow==2.7.0
@@ -8,10 +8,12 @@ tensorflow==2.7.0
 #streamlit-webrtc
 
 
+# choose one of these
 tensorflow-cpu==2.7.0. # ony for host without CPU
-
 #tensorflow==2.7.0. 3 use if you have a GPU
-
 #tensorflow_macos==2.7.0. # only for Mac-M1 environment
 
-opencv-python==4.5.5.62. # use for local host 
+
+# choose one of these
+#opencv-python==4.5.5.62. # use for local host 
+opencv-python-headless  #only for streamlit / heroic / cloud without GUI
