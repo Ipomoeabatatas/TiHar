@@ -144,7 +144,7 @@ def inference_actions(model, video):
              #stframe.image( image_rgb)
 
              filename = './tmp/savedImage.jpg'
-             cv2.imwrite(filename, image)
+             #cv2.imwrite(filename, image)
              #reload_image = Image.open(filename)
              #stframe.image(reload_image)
 
@@ -186,7 +186,7 @@ def inference_actions(model, video):
              #stframe.image( image_rgb)
 
              filename = 'savedImage.jpg'
-             cv2.imwrite(filename, image)
+             #cv2.imwrite(filename, image)
              #reload_image = Image.open(filename)   #
              #stframe.image(reload_image)           #
              
