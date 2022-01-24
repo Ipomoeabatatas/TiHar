@@ -15,6 +15,7 @@ MODEL = './model/lightweight-multiscale-ltc-cnn-model-all-frames-13.h5'  # LTC-C
 VIDEO_EXTENSIONS = ["mp4", "ogv", "m4v", "webm"]
 VIDEO_DIR = "./data"
 UPLOAD_DIR = "./upload"  
+##
 
 PROJECT_INFO = "./project-info/about.md"
 TEAM_DIR = './project-info'
