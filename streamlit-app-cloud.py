@@ -1,4 +1,5 @@
-# reference codes: https://github.com/robertklee/COCO-Human-Pose/blob/main/human_pose_app.py
+# reference codes: 
+# https://github.com/robertklee/COCO-Human-Pose/blob/main/human_pose_app.py
 # https://github.com/robertklee/COCO-Human-Pose/blob/main/human_pose_app.py
 # https://github.com/rejexx/Parkingspot_Vacancy/blob/main/src/streamlit_app.py
 
@@ -144,8 +145,8 @@ def inference_actions(model, video):
 
              filename = './tmp/savedImage.jpg'
              cv2.imwrite(filename, image)
-             reload_image = Image.open(filename)
-             stframe.image(reload_image)
+             #reload_image = Image.open(filename)
+             #stframe.image(reload_image)
 
 
            elif len(frames_list) == clip_frames:
@@ -186,8 +187,8 @@ def inference_actions(model, video):
 
              filename = 'savedImage.jpg'
              cv2.imwrite(filename, image)
-             reload_image = Image.open(filename)
-             stframe.image(reload_image)
+             #reload_image = Image.open(filename)
+             #stframe.image(reload_image)
              
        if not inference:
            stframe.imshow('No Inference', image)
