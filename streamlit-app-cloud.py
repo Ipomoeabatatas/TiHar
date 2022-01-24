@@ -144,9 +144,9 @@ def inference_actions(model, video):
              #stframe.image( image_rgb)
 
              filename = './tmp/savedImage.jpg'
-             #cv2.imwrite(filename, image)
-             #reload_image = Image.open(filename)
-             #stframe.image(reload_image)
+             cv2.imwrite(filename, image)
+             reload_image = Image.open(filename)
+             stframe.image(reload_image)
 
 
            elif len(frames_list) == clip_frames:
@@ -186,9 +186,9 @@ def inference_actions(model, video):
              #stframe.image( image_rgb)
 
              filename = 'savedImage.jpg'
-             #cv2.imwrite(filename, image)
-             #reload_image = Image.open(filename)   #
-             #stframe.image(reload_image)           #
+             cv2.imwrite(filename, image)
+             reload_image = Image.open(filename)   #
+             stframe.image(reload_image)           #
              
        if not inference:
            stframe.imshow('No Inference', image)
