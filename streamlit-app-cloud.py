@@ -3,7 +3,7 @@
 # https://github.com/robertklee/COCO-Human-Pose/blob/main/human_pose_app.py
 # https://github.com/rejexx/Parkingspot_Vacancy/blob/main/src/streamlit_app.py
 
-from tkinter import image_names
+
 import streamlit as st
 import os
 import cv2
