@@ -19,4 +19,4 @@ tensorflow-cpu==2.7.0. # ony for host without CPU
 opencv-python-headless  #only for streamlit / heroic / cloud without GUI
 
 #
-tk. # only for Streamlit
+tk # only for Streamlit
