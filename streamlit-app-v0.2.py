@@ -175,7 +175,7 @@ def inference_actions(model, video):
                         fontScale=0.5, color=(0, 255, 255), thickness=2)
              #cv2.imshow('Inference', image)   # old CV codes
              image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-             stframe.image( image_rgb)
+             stframe.image( image_rgb) #
              
        if not inference:
            stframe.imshow('No Inference', image)

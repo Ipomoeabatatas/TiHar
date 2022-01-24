@@ -15,8 +15,8 @@ tensorflow-cpu==2.7.0. # ony for host without CPU
 
 
 # choose one of these
-opencv-python==4.5.5.62. # use for local host 
-#opencv-python-headless  #only for streamlit / heroic / cloud without GUI
+#opencv-python==4.5.5.62. # use for local host 
+opencv-python-headless  #only for streamlit / heroic / cloud without GUI
 
 #
 #tk # only for Streamlit
